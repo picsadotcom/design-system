@@ -186,3 +186,53 @@ $bg-standard-map: map-merge($task2-monkey-patch, $bg-standard-map);
 .slds-icon-text-light {
   fill: $color-text-input-icon;
 }
+
+/**
+ * @selector .slds-icon-text-casenote
+ * @restrict .slds-icon
+ * @modifier
+ * @group color
+ */
+.slds-icon-text-casenote {
+  fill: $color-text-casenote;
+}
+
+/**
+ * @selector .slds-icon-text-sms-inbound
+ * @restrict .slds-icon
+ * @modifier
+ * @group color
+ */
+.slds-icon-text-sms_inbound {
+  fill: $color-text-sms-inbound;
+}
+
+/**
+ * @selector .slds-icon-text-sms-outbound
+ * @restrict .slds-icon
+ * @modifier
+ * @group color
+ */
+.slds-icon-text-sms_outbound {
+  fill: $color-text-sms-outbound;
+}
+
+/**
+ * @selector .slds-icon-text-email-inbound
+ * @restrict .slds-icon
+ * @modifier
+ * @group color
+ */
+.slds-icon-text-email_inbound {
+  fill: $color-text-email-inbound;
+}
+
+/**
+ * @selector .slds-icon-text-email-outbound
+ * @restrict .slds-icon
+ * @modifier
+ * @group color
+ */
+.slds-icon-text-email_outbound {
+  fill: $color-text-email-outbound;
+}

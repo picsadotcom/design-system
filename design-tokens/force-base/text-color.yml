@@ -34,6 +34,21 @@ props:
   COLOR_TEXT_ERROR:
     value: '{!POS_RED}'
     comment: Error text for inputs and error misc
+  COLOR_TEXT_CASENOTE:
+    value: '{!POS_CASENOTE_ICON_TEXT}'
+    comment: PicsaOS - casenote icon colour
+  COLOR_TEXT_SMS_INBOUND:
+    value: '{!POS_SMS_INBOUND_ICON_TEXT}'
+    comment: PicsaOS - inbound sms icon colour
+  COLOR_TEXT_SMS_OUTBOUND:
+    value: '{!POS_SMS_OUTBOUND_ICON_TEXT}'
+    comment: PicsaOS - outbound sms icon colour
+  COLOR_TEXT_EMAIL_INBOUND:
+    value: '{!POS_EMAIL_INBOUND_ICON_TEXT}'
+    comment: PicsaOS - inbound email icon colour
+  COLOR_TEXT_EMAIL_OUTBOUND:
+    value: '{!POS_EMAIL_OUTBOUND_ICON_TEXT}'
+    comment: PicsaOS - outbound email icon colour
   COLOR_TEXT_INPUT_DISABLED:
     value: '{!KASHMIR_BLUE}'
     comment: Input disabled text
