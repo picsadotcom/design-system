@@ -49,6 +49,22 @@ props:
   COLOR_TEXT_EMAIL_OUTBOUND:
     value: '{!POS_EMAIL_OUTBOUND_ICON_TEXT}'
     comment: PicsaOS - outbound email icon colour
+  COLOR_TEXT_CASH_LOAN:
+    value: '{!POS_CASH_LOAN_ICON_TEXT}'
+    comment: PicsaOS - cash loan icon colour
+  COLOR_TEXT_RETAIL_LOAN:
+    value: '{!POS_RETAIL_LOAN_ICON_TEXT}'
+    comment: PicsaOS - retail loan icon colour
+  COLOR_TEXT_CONSOLIDATION_LOAN:
+    value: '{!POS_CONSOLIDATION_LOAN_ICON_TEXT}'
+    comment: PicsaOS - consolidation loan icon colour
+  COLOR_TEXT_SHORTTERM_INVESTMENT:
+    value: '{!POS_SHORTTERM_INVESTMENT_ICON_TEXT}'
+    comment: PicsaOS - short-term investment icon colour
+  COLOR_TEXT_LONGTERM_INVESTMENT:
+    value: '{!POS_LONGTERM_INVESTMENT_ICON_TEXT}'
+    comment: PicsaOS - long-term investment icon colour
+
   COLOR_TEXT_INPUT_DISABLED:
     value: '{!KASHMIR_BLUE}'
     comment: Input disabled text
