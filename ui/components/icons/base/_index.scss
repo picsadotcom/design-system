@@ -148,6 +148,16 @@ $bg-standard-map: map-merge($task2-monkey-patch, $bg-standard-map);
 }
 
 /**
+ * @selector .slds-icon_x-large
+ * @restrict .slds-icon
+ * @modifier
+ * @group size
+ */
+.slds-icon_x-large {
+  @include square($square-icon-x-large-boundary);
+}
+
+/**
  * @selector .slds-icon-text-default
  * @restrict .slds-icon
  * @modifier
