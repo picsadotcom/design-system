@@ -10,6 +10,7 @@ global:
   - box-shadow
 imports:
 - ./aliases/color.yml
+- ./aliases/color-picsa.yml
 props:
   COLOR_BACKGROUND:
     value: '{!LINK_WATER}'

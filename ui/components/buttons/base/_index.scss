@@ -42,13 +42,13 @@
   padding: 0;
   background: transparent;
   background-clip: border-box;
-  // border: $border-width-thin solid transparent;
-  border: 0;
+  // border: $border-width-thin solid transparent;  Picsa
+  border: 0;  // Picsa
   border-radius: $border-radius-medium;
-  font-size: $font-size-medium;
+  font-size: $font-size-medium;  // Picsa
   line-height: $line-height-button;
   text-decoration: none;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.03rem;  // Picsa
   color: $color-text-link;
   // stylelint-disable property-no-vendor-prefix
   -webkit-appearance: none;
@@ -64,7 +64,7 @@
   &:active,
   &:visited {
     text-decoration: none;
-    border-color: transparent;
+    border-color: transparent;  // Picsa
   }
 
   &:hover,
@@ -153,6 +153,7 @@ a.slds-button--inverse:focus {
   @include button-base;
   background-color: $color-background-button-default;
 
+  // start of Picsa addition
   &:hover,
   &:focus, {
     border: 1px solid $color-border-button-default-hover;
@@ -163,10 +164,12 @@ a.slds-button--inverse:focus {
   &:active {
     box-shadow: none;
   }
+  // end of Picsa addition
 
   &[disabled] {
     background-color: $color-background-button-default-disabled;
     cursor: default;
+    // next 2 lines Picsa added
     border: 1px solid $color-border-button-default-disabled;
     color: $color-text-button-default-disabled;
   }
@@ -184,7 +187,7 @@ a.slds-button--inverse:focus {
 .slds-button--brand {
   @include button;
   @include button-brand;
-  border-color: $color-background-button-brand;
+  border-color: $color-background-button-brand;  // Picsa addition
 
   &[disabled] {
     background: $color-background-button-brand-disabled;

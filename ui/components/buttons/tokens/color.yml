@@ -7,6 +7,7 @@ global:
   - box-shadow
 imports:
 - "../../../../design-tokens/force-base/aliases/color.yml"
+- "../../../../design-tokens/force-base/aliases/color-picsa.yml"
 props:
   COLOR_BACKGROUND_BUTTON_BRAND:
     value: "{!PICSA_GREEN-2}"

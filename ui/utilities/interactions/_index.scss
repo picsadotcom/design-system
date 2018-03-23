@@ -41,10 +41,10 @@
 
   &:hover,
   &:focus {
-    text-decoration: none;
+    text-decoration: none;  // Picsa change
     color: $color-text-link-hover;
-    border-bottom: 2px solid $color-text-link-hover;
-    padding-bottom: 1px;
+    border-bottom: 2px solid $color-text-link-hover;  // Picsa addition
+    padding-bottom: 1px;  // Picsa addition
   }
 
   &:active {

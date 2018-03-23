@@ -15,10 +15,11 @@
 .slds-media--timeline {
   @include deprecate('4.0.0', 'Use .slds-timeline__media instead of .slds-media--timeline');
   @include feed-vertical-rule($square-icon-small-boundary, $border-width-thick);
-  //padding-bottom: $spacing-large;
+  //padding-bottom: $spacing-large;  Picsa commented out
 
   &:before {
     margin-left: $border-width-thin;
+    // followling lines Picsa added
     z-index: 1; // TODO: Find out where the z-index: -1 comes from during render, then remove this.
     top: 2.25rem; // Height of the slds "spacing border hack" + icon
     bottom: 2.25rem;
@@ -55,6 +56,7 @@
 }
 
 .slds-timeline {
+  // next 6 lines Picsa added
   display: -webkit-box;
   display: flex;
   -ms-flex-align: start;
@@ -69,6 +71,7 @@
    */
   &__icon {
     margin-top: ($spacing-small * -1);
+    // next 3 lines Picsa added
     border-width: $border-width-thick;
     border-style: solid;
     border-color: transparent;

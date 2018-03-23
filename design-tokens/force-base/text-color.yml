@@ -9,6 +9,7 @@ global:
   - fill
 imports:
 - ./aliases/color.yml
+- ./aliases/color-picsa.yml
 props:
   COLOR_TEXT_ACTION_LABEL:
     value: '{!KASHMIR_BLUE}'

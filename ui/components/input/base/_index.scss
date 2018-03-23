@@ -27,6 +27,7 @@
     height: 0;
   }
 
+  // start of Picsa addition
   &[type="password"]{
     font-size: 1.5rem;
   }
@@ -36,6 +37,7 @@
     //outline: 0;
     box-shadow: none;
   }
+  // end of Picsa addition
 
   /**
    * Removes aesthetic nature from an input

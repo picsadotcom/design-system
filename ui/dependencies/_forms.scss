@@ -29,10 +29,10 @@
 }
 
 @mixin form-element-vertical-spacing {
-  margin-top: $spacing-large;
+  margin-top: $spacing-large;  // Picsa change
 
   @include mq-small-min {
-    margin-top: $spacing-large;
+    margin-top: $spacing-large;  // Picsa change
   }
 }
 
@@ -54,13 +54,13 @@
     #{$element} {
       background-color: $color-background-input;
       border-color: $color-border-error;
-      border-width: 2px;
+      border-width: 2px;  // Picsa replace commented out line directly below
       //box-shadow: $color-border-error 0 0 0 $border-width-thin inset;
       background-clip: padding-box;
 
       &:focus,
       &:active {
-        box-shadow: none;
+        box-shadow: none;  // Picsa change
       }
     }
   }

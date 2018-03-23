@@ -10,6 +10,7 @@ global:
   - 'fill'
 imports:
 - ./aliases/color.yml
+- ./aliases/color-picsa.yml
 props:
   FILL_BRAND:
     value: '{!PICSA_GREEN-1}'

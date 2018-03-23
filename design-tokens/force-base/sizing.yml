@@ -51,7 +51,7 @@ props:
   SQUARE_ICON_LARGE_BOUNDARY:
     value: 3rem
     comment: 'Anchor: Outer colored tile'
-  SQUARE_ICON_X_LARGE_BOUNDARY:
+  SQUARE_ICON_X_LARGE_BOUNDARY: # Picsa added
     value: 5rem
     comment: 'Anchor: Outer colored tile'
   SQUARE_ICON_LARGE_BOUNDARY_ALT:

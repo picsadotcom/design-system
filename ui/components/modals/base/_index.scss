@@ -75,7 +75,7 @@
         right-radius: $border-radius-medium;
         left-radius: $border-radius-medium;
       }
-      bottom: $border-width-thin solid $color-border;
+      bottom: $border-width-thin solid $color-border;  // Picsa change - thin border width
     }
     padding: $spacing-medium;
     text-align: center;
@@ -165,15 +165,15 @@
    */
   &__footer {
     border: {
-      top: $border-width-thin solid $color-border;
+      top: $border-width-thin solid $color-border;  // Picsa change - thin border width
       bottom: {
         right-radius: $border-radius-medium;
         left-radius: $border-radius-medium;
       }
     }
     padding: $spacing-small $spacing-medium;
-    background-color: #fff;
-    text-align: left;
+    background-color: #fff;  // Picsa change
+    text-align: left;  // Picsa change
     box-shadow: $shadow-drop-down;
 
     /**

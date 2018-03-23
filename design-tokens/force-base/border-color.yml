@@ -9,6 +9,7 @@ global:
   - box-shadow
 imports:
 - ./aliases/color.yml
+- ./aliases/color-picsa.yml
 props:
   COLOR_BORDER:
     value: '{!WARM-GREY-2}'
