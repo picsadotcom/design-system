@@ -6,6 +6,7 @@ global:
   - fill
 imports:
 - "../../../../design-tokens/force-base/aliases/color.yml"
+- "../../../../design-tokens/force-base/aliases/color-picsa.yml"
 props:
   COLOR_TEXT_CONTEXT_BAR:
     value: '{!PLACEHOLDER_GREY}'

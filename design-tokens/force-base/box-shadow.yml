@@ -8,6 +8,7 @@ global:
   - box-shadow
 imports:
 - ./aliases/color.yml
+- ./aliases/color-picsa.yml
 - ./aliases/offset.yml
 props:
   SHADOW_ACTION_OVERFLOW_FOOTER:

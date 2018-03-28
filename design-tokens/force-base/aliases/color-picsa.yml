@@ -21,17 +21,13 @@ aliases:
   PICSA_GREEN-3: "#7ebf3d"
   PICSA_GREEN-4: "#7da60c"
   PICSA_YELLOW: "#ffce4b"
-
   PICSA_CHARCOAL: "#3e4a55"
   CHARCOAL_DARK: "#16222b"
   CHARCOAL_LIGHT: "#687480"
-
-  # Red
   POS_RED: "#fd5952"
   POS_RED_TRANSPARENT_95: "rgba(253, 89, 82, 0.95)"
 
   # Greys
   PLACEHOLDER_GREY: "#bbbbbb"
-
   WARM-GREY-1: "#f3f3f3"
   WARM-GREY-2: "#e3e2e0"
