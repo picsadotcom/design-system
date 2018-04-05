@@ -1,0 +1,51 @@
+.picsa-button {
+  @extend .slds-button;
+  border: 0;
+  font-size: $font-size-medium;
+  letter-spacing: 0.03rem;
+
+  &:hover {
+    @extend .slds-button:hover;
+    border-color: transparent;
+  }
+
+  &:focus {
+    @extend .slds-button:focus;
+    border-color: transparent;
+  }
+
+  &:active {
+    @extend .slds-button:active;
+    border-color: transparent;
+  }
+
+  &:visited {
+    @extend .slds-button:visited;
+    border-color: transparent;
+  }
+}
+
+.picsa-button_neutral {
+  @extend .slds-button_neutral;
+  &:hover,
+  &:focus {
+    border: 1px solid $color-border-button-default-hover;
+    background-color: $color-background-button-default-hover;
+    box-shadow: none;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+
+  &[disabled] {
+    @extend .slds-button[disabled];
+    border: 1px solid $color-border-button-default-disabled;
+    color: $color-text-button-default-disabled;
+  }
+}
+
+.picsa-button_brand {
+  @extend .slds-button_brand;
+  border-color: $color-background-button-brand;
+}

@@ -1,0 +1,51 @@
+.picsa-timeline__media {
+  @extend .slds-timeline__media;
+  padding-bottom: initial;
+
+  &:before {
+    @extend .slds-timeline__media:before;
+    z-index: 1; // TODO: Find out where the z-index: -1 comes from during render, then remove this.
+    top: 2.25rem; // Height of the slds "spacing border hack" + icon
+    bottom: 2.25rem;
+  }
+}
+
+.picsa-media_timeline {
+  @extend .slds-media_timeline;
+  padding-bottom: initial;
+
+  &:before {
+    @extend .slds-media_timeline:before;
+    z-index: 1; // TODO: Find out where the z-index: -1 comes from during render, then remove this.
+    top: 2.25rem; // Height of the slds "spacing border hack" + icon
+    bottom: 2.25rem;
+  }
+}
+
+.picsa-media--timeline {
+  @extend .slds-media--timeline;
+  padding-bottom: initial;
+
+  &:before {
+    @extend .slds-media--timeline:before;
+    z-index: 1; // TODO: Find out where the z-index: -1 comes from during render, then remove this.
+    top: 2.25rem; // Height of the slds "spacing border hack" + icon
+    bottom: 2.25rem;
+  }
+}
+
+.picsa-timeline {
+  @extend .slds-timeline;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: start;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  margin-bottom: 2.75rem;
+
+  &__icon {
+    @extend .slds-timeline__icon;
+    border-style: solid;
+    border-color: transparent;
+  }
+}
