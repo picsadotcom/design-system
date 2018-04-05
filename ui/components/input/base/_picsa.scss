@@ -1,0 +1,107 @@
+
+.picsa-input {
+  @extend .slds-input;
+
+  &:read-only {
+    @extend .slds-input:read-only;
+  }
+
+  &[type="search"]::-ms-clear {
+    @extend .slds-input[type="search"]::-ms-clear
+  }
+
+  &[type="password"]{
+    font-size: 1.5rem;
+  }
+
+  &:focus {
+    @extend .slds-input:focus;
+    box-shadow: none;
+  }
+
+  &:active {
+    @extend .slds-input:active;
+    box-shadow: none;
+  }
+
+  &_bare {
+    @extend .slds-input_bare;
+
+    &:focus{
+      @extend .slds-input_bare:focus;
+    }
+
+    &:active {
+      @extend .slds-input_bare:active;
+    }
+  }
+
+  &_height {
+    @extend .slds-input_height;
+  }
+}
+
+.picsa-input-has-icon {
+  @extend .slds-input-has-icon;
+
+  .picsa-input__icon {
+    @include square($square-icon-medium-content);
+    position: absolute;
+    top: 50%;
+    margin-top: (($square-icon-medium-content / 2) * -1);
+    line-height: 1;
+
+    /* @Todo - we need to be sure this is deprecated since the color sems to be the correct gray I see in specs */
+    @include deprecate('4.0.0', 'Use .slds-icon-text-default on the SVG icon instead') {
+      fill: $color-text-input-icon;
+    }
+  }
+
+  &_left {
+    @extend .picsa-input-has-icon_left;
+
+    // .picsa-input__icon {
+    //   left: $spacing-small;
+    // }
+    //
+    // .picsa-input,
+    // .picsa-input_bare,
+    // .picsa-input--bare {
+    //   padding-left: $spacing-x-large;
+    // }
+  }
+
+  &_right {
+    @extend .picsa-input-has-icon_right;
+
+    // .picsa-input__icon {
+    //   right: $spacing-small;
+    // }
+    //
+    // .picsa-input,
+    // .picsa-input_bare,
+    // .picsa-input--bare {
+    //   padding-right: $spacing-x-large;
+    // }
+  }
+
+  &_left-right {
+    @extend .picsa-input-has-icon_left-right;
+
+    // .slds-input__icon_left,
+    // .slds-input__icon--left {
+    //   left: $spacing-small;
+    // }
+
+    // .slds-input__icon_right,
+    // .slds-input__icon--right {
+    //   right: $spacing-small;
+    // }
+
+    // .slds-input,
+    // .slds-input_bare,
+    // .slds-input--bare {
+    //   padding: 0 $spacing-x-large;
+    // }
+  }
+}
