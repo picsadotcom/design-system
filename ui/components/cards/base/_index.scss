@@ -31,11 +31,10 @@
     padding-left: $spacing-small;
     padding-right: $spacing-small;
 
-    /* Picsa commented out
     @include mq-large-min {
       padding-left: $card-spacing-large;
       padding-right: $card-spacing-large;
-    } */
+    }
   }
 
   /**
@@ -46,8 +45,7 @@
    */
   &__header {
     padding-top: $spacing-small;
-    padding-bottom: $spacing-small; // Picsa: Added
-    // margin-bottom: $spacing-small; // Picsa: removed
+    margin-bottom: $spacing-small;
   }
 
   &__header-link {
@@ -76,7 +74,7 @@
    * @restrict .slds-card footer
    */
   &__footer {
-    padding-top: $spacing-small;  // Picsa; margin swopped for padding
+    margin-top: $spacing-small;
     padding-bottom: $spacing-small;
     text-align: right;
   }
@@ -86,18 +84,15 @@
 
     .slds-card__header {
       padding-top: $spacing-small;
-      padding-bottom: $spacing-small;  // Picsa; margin swopped for padding
-      /* margin-bottom: $spacing-small;  Picsa commented out */
+      margin-bottom: $spacing-small;
 
       @include mq-large-min {
         padding-top: $card-spacing-large;
-        padding-bottom: $card-spacing-large;  // Picsa; margin swopped for padding
-        // margin-bottom: $card-spacing-large;  Picsa commented out
+        margin-bottom: $card-spacing-large;
       }
     }
 
     .slds-card__footer {
-      padding-top: $spacing-small;  // Picsa added
       padding-bottom: $spacing-small;
 
       @include mq-large-min {

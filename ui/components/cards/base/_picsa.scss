@@ -1,0 +1,73 @@
+.picsa-card {
+  @extend .slds-card;
+
+  &__header {
+    padding-left: $spacing-small;
+    padding-right: $spacing-small;
+    padding-top: $spacing-small;
+    padding-bottom: $spacing-small;
+    margin-bottom: initial;
+  }
+
+  &__footer {
+    padding-left: $spacing-small;
+    padding-right: $spacing-small;
+    padding-top: $spacing-small;  // Picsa; margin swopped for padding
+    margin-top: initial
+  }
+
+  &__body_inner {
+    padding-left: $spacing-small;
+    padding-right: $spacing-small;
+  }
+
+  &__body--inner {
+    padding-left: $spacing-small;
+    padding-right: $spacing-small;
+  }
+
+  &__header-link {
+    @extend .slds-card__header-link;
+    color: inherit;
+  }
+
+  &__body {
+    @extend .slds-card__body;
+
+    &:empty {
+      @extend .slds-card__body:empty;
+    }
+  }
+
+  &_narrow {
+    @extend .slds-card_narrow;
+
+    .picsa-card__header {
+      @extend .slds-card__header
+      padding-bottom: $spacing-small;
+      margin-bottom: initial;
+
+      @include mq-large-min {
+        padding-top: $card-spacing-large;
+        padding-bottom: $card-spacing-large;
+        margin-bottom: initial;
+      }
+    }
+
+    .picsa-card__footer {
+      @extend .slds-card__footer;
+      padding-top: $spacing-small;
+    }
+  }
+
+  @include deprecate('4.0.0', 'Use a text-align--center utility class instead') {
+    .picsa-card_empty .picsa-card__body,
+    .picsa-card--empty .picsa-card__body {
+      text-align: center;
+    }
+  }
+}
+
+.picsa-card__tile {
+  @extend slds-card_tile;
+}
