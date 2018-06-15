@@ -64,6 +64,9 @@ props:
   COLOR_TEXT_LONGTERM_INVESTMENT:
     value: '{!POS_LONGTERM_INVESTMENT_ICON_TEXT}'
     comment: PicsaOS - long-term investment icon colour
+  COLOR_TEXT_FUNERAL_COVER:
+    value: '{!POS_FUNERAL_COVER_ICON_TEXT}'
+    comment: PicsaOS - funeral cover insurance icon colour
 
   COLOR_TEXT_INPUT_DISABLED:
     value: '{!KASHMIR_BLUE}'
