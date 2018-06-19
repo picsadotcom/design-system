@@ -296,3 +296,13 @@ $bg-standard-map: map-merge($task2-monkey-patch, $bg-standard-map);
 .slds-icon-text-longterm_investment {
   fill: $color-text-longterm-investment;
 }
+
+/**
+ * @selector .slds-icon-text-funeral_cover
+ * @restrict .slds-icon
+ * @modifier
+ * @group color
+ */
+.slds-icon-text-funeral_cover {
+  fill: $color-text-funeral-cover;
+}
